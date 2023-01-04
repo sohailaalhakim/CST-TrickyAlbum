@@ -1,0 +1,25 @@
+mark{
+    background-color: blue;
+}
+img{
+    transform:rotate(-9deg);
+    transition: transform 4s;
+}
+img:hover{
+    border: blue double;
+    box-shadow: 6px 10px 10px -3px rgb(249, 16, 16);;
+    transform: none;
+}
+img:active{
+    border: blue dashed;
+
+}
+#mainWrapper:hover{
+    transform:none;
+}
+#TextSection{
+    width: 30%;
+}
+#ImageSection{
+    width: 40%;
+}
